@@ -13,15 +13,15 @@
 		0F882253231E77DC0040948A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F882252231E77DC0040948A /* Assets.xcassets */; };
 		0F882256231E77DC0040948A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F882254231E77DC0040948A /* LaunchScreen.storyboard */; };
 		0F882259231E77DC0040948A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882258231E77DC0040948A /* main.m */; };
-		0F88226A231E77F90040948A /* IdCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882260231E77F90040948A /* IdCardImg1.png */; };
-		0F88226B231E77F90040948A /* IdCardImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882261231E77F90040948A /* IdCardImg2.png */; };
-		0F88226C231E77F90040948A /* ExBankCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882265231E77F90040948A /* ExBankCardSDK.framework */; };
-		0F88226D231E77F90040948A /* ExBankCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882266231E77F90040948A /* ExBankCardRes.bundle */; };
-		0F88226E231E77F90040948A /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882268231E77F90040948A /* ExCardSDK.framework */; };
-		0F88226F231E77F90040948A /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882269231E77F90040948A /* ExCardRes.bundle */; };
 		0F882275231E781A0040948A /* KKBankCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882272231E781A0040948A /* KKBankCardOCRViewController.m */; };
 		0F882276231E781A0040948A /* KKIDCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882273231E781A0040948A /* KKIDCardOCRViewController.m */; };
-		0F882279231E79C70040948A /* BankCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882278231E79C70040948A /* BankCardImg1.png */; };
+		0F882286231E7B300040948A /* IdCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227B231E7B2F0040948A /* IdCardImg1.png */; };
+		0F882287231E7B300040948A /* IdCardImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227C231E7B2F0040948A /* IdCardImg2.png */; };
+		0F882288231E7B300040948A /* BankCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227D231E7B2F0040948A /* BankCardImg1.png */; };
+		0F882289231E7B300040948A /* ExBankCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882281231E7B300040948A /* ExBankCardSDK.framework */; };
+		0F88228A231E7B300040948A /* ExBankCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882282231E7B300040948A /* ExBankCardRes.bundle */; };
+		0F88228B231E7B300040948A /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882284231E7B300040948A /* ExCardSDK.framework */; };
+		0F88228C231E7B300040948A /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882285231E7B300040948A /* ExCardRes.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,18 +35,18 @@
 		0F882255231E77DC0040948A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F882257231E77DC0040948A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F882258231E77DC0040948A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F882260231E77F90040948A /* IdCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg1.png; sourceTree = "<group>"; };
-		0F882261231E77F90040948A /* IdCardImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg2.png; sourceTree = "<group>"; };
-		0F882265231E77F90040948A /* ExBankCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExBankCardSDK.framework; sourceTree = "<group>"; };
-		0F882266231E77F90040948A /* ExBankCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExBankCardRes.bundle; sourceTree = "<group>"; };
-		0F882268231E77F90040948A /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
-		0F882269231E77F90040948A /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
 		0F882271231E781A0040948A /* KKBankCardOCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBankCardOCRViewController.h; sourceTree = "<group>"; };
 		0F882272231E781A0040948A /* KKBankCardOCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBankCardOCRViewController.m; sourceTree = "<group>"; };
 		0F882273231E781A0040948A /* KKIDCardOCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKIDCardOCRViewController.m; sourceTree = "<group>"; };
 		0F882274231E781A0040948A /* KKIDCardOCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKIDCardOCRViewController.h; sourceTree = "<group>"; };
 		0F882277231E78690040948A /* OCRApplication.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRApplication.pch; sourceTree = "<group>"; };
-		0F882278231E79C70040948A /* BankCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankCardImg1.png; sourceTree = "<group>"; };
+		0F88227B231E7B2F0040948A /* IdCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg1.png; sourceTree = "<group>"; };
+		0F88227C231E7B2F0040948A /* IdCardImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg2.png; sourceTree = "<group>"; };
+		0F88227D231E7B2F0040948A /* BankCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankCardImg1.png; sourceTree = "<group>"; };
+		0F882281231E7B300040948A /* ExBankCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExBankCardSDK.framework; sourceTree = "<group>"; };
+		0F882282231E7B300040948A /* ExBankCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExBankCardRes.bundle; sourceTree = "<group>"; };
+		0F882284231E7B300040948A /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+		0F882285231E7B300040948A /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F88226E231E77F90040948A /* ExCardSDK.framework in Frameworks */,
-				0F88226C231E77F90040948A /* ExBankCardSDK.framework in Frameworks */,
+				0F88228B231E7B300040948A /* ExCardSDK.framework in Frameworks */,
+				0F882289231E7B300040948A /* ExBankCardSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +65,6 @@
 		0F88223D231E77DB0040948A = {
 			isa = PBXGroup;
 			children = (
-				0F88225F231E77F90040948A /* Images */,
-				0F882262231E77F90040948A /* Frameworks */,
 				0F882248231E77DB0040948A /* OCRApplication */,
 				0F882247231E77DB0040948A /* Products */,
 			);
@@ -83,6 +81,8 @@
 		0F882248231E77DB0040948A /* OCRApplication */ = {
 			isa = PBXGroup;
 			children = (
+				0F88227A231E7B2F0040948A /* Images */,
+				0F88227E231E7B300040948A /* Frameworks */,
 				0F882249231E77DB0040948A /* AppDelegate.h */,
 				0F88224A231E77DB0040948A /* AppDelegate.m */,
 				0F88224C231E77DB0040948A /* ViewController.h */,
@@ -101,47 +101,47 @@
 			path = OCRApplication;
 			sourceTree = "<group>";
 		};
-		0F88225F231E77F90040948A /* Images */ = {
+		0F88227A231E7B2F0040948A /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0F882260231E77F90040948A /* IdCardImg1.png */,
-				0F882261231E77F90040948A /* IdCardImg2.png */,
-				0F882278231E79C70040948A /* BankCardImg1.png */,
+				0F88227B231E7B2F0040948A /* IdCardImg1.png */,
+				0F88227C231E7B2F0040948A /* IdCardImg2.png */,
+				0F88227D231E7B2F0040948A /* BankCardImg1.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		0F882262231E77F90040948A /* Frameworks */ = {
+		0F88227E231E7B300040948A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F882263231E77F90040948A /* OCRLibrary */,
+				0F88227F231E7B300040948A /* OCRLibrary */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		0F882263231E77F90040948A /* OCRLibrary */ = {
+		0F88227F231E7B300040948A /* OCRLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0F882264231E77F90040948A /* BankCard */,
-				0F882267231E77F90040948A /* IDCard */,
+				0F882280231E7B300040948A /* BankCard */,
+				0F882283231E7B300040948A /* IDCard */,
 			);
 			path = OCRLibrary;
 			sourceTree = "<group>";
 		};
-		0F882264231E77F90040948A /* BankCard */ = {
+		0F882280231E7B300040948A /* BankCard */ = {
 			isa = PBXGroup;
 			children = (
-				0F882265231E77F90040948A /* ExBankCardSDK.framework */,
-				0F882266231E77F90040948A /* ExBankCardRes.bundle */,
+				0F882281231E7B300040948A /* ExBankCardSDK.framework */,
+				0F882282231E7B300040948A /* ExBankCardRes.bundle */,
 			);
 			path = BankCard;
 			sourceTree = "<group>";
 		};
-		0F882267231E77F90040948A /* IDCard */ = {
+		0F882283231E7B300040948A /* IDCard */ = {
 			isa = PBXGroup;
 			children = (
-				0F882268231E77F90040948A /* ExCardSDK.framework */,
-				0F882269231E77F90040948A /* ExCardRes.bundle */,
+				0F882284231E7B300040948A /* ExCardSDK.framework */,
+				0F882285231E7B300040948A /* ExCardRes.bundle */,
 			);
 			path = IDCard;
 			sourceTree = "<group>";
@@ -204,13 +204,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F882256231E77DC0040948A /* LaunchScreen.storyboard in Resources */,
-				0F88226B231E77F90040948A /* IdCardImg2.png in Resources */,
+				0F88228C231E7B300040948A /* ExCardRes.bundle in Resources */,
+				0F882287231E7B300040948A /* IdCardImg2.png in Resources */,
 				0F882253231E77DC0040948A /* Assets.xcassets in Resources */,
-				0F88226A231E77F90040948A /* IdCardImg1.png in Resources */,
+				0F88228A231E7B300040948A /* ExBankCardRes.bundle in Resources */,
+				0F882286231E7B300040948A /* IdCardImg1.png in Resources */,
 				0F882251231E77DB0040948A /* Main.storyboard in Resources */,
-				0F88226D231E77F90040948A /* ExBankCardRes.bundle in Resources */,
-				0F88226F231E77F90040948A /* ExCardRes.bundle in Resources */,
-				0F882279231E79C70040948A /* BankCardImg1.png in Resources */,
+				0F882288231E7B300040948A /* BankCardImg1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +372,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/OCRLibrary/BankCard",
 					"$(PROJECT_DIR)/Frameworks/OCRLibrary/IDCard",
+					"$(PROJECT_DIR)/OCRApplication/Frameworks/OCRLibrary/BankCard",
+					"$(PROJECT_DIR)/OCRApplication/Frameworks/OCRLibrary/IDCard",
 				);
 				INFOPLIST_FILE = OCRApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -393,6 +395,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks/OCRLibrary/BankCard",
 					"$(PROJECT_DIR)/Frameworks/OCRLibrary/IDCard",
+					"$(PROJECT_DIR)/OCRApplication/Frameworks/OCRLibrary/BankCard",
+					"$(PROJECT_DIR)/OCRApplication/Frameworks/OCRLibrary/IDCard",
 				);
 				INFOPLIST_FILE = OCRApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
