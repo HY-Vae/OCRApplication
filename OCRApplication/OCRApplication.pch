@@ -1,0 +1,16 @@
+//
+//  OCRApplication.pch
+//  OCRApplication
+//
+//  Created by 李志刚 on 2019/9/3.
+//  Copyright © 2019 李志刚. All rights reserved.
+//
+
+#ifndef OCRApplication_pch
+#define OCRApplication_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* OCRApplication_pch */

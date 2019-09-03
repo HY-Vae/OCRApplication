@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F88224B231E77DB0040948A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88224A231E77DB0040948A /* AppDelegate.m */; };
+		0F88224E231E77DB0040948A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88224D231E77DB0040948A /* ViewController.m */; };
+		0F882251231E77DB0040948A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88224F231E77DB0040948A /* Main.storyboard */; };
+		0F882253231E77DC0040948A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F882252231E77DC0040948A /* Assets.xcassets */; };
+		0F882256231E77DC0040948A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F882254231E77DC0040948A /* LaunchScreen.storyboard */; };
+		0F882259231E77DC0040948A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882258231E77DC0040948A /* main.m */; };
+		0F88226A231E77F90040948A /* IdCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882260231E77F90040948A /* IdCardImg1.png */; };
+		0F88226B231E77F90040948A /* IdCardImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882261231E77F90040948A /* IdCardImg2.png */; };
+		0F88226C231E77F90040948A /* ExBankCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882265231E77F90040948A /* ExBankCardSDK.framework */; };
+		0F88226D231E77F90040948A /* ExBankCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882266231E77F90040948A /* ExBankCardRes.bundle */; };
+		0F88226E231E77F90040948A /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882268231E77F90040948A /* ExCardSDK.framework */; };
+		0F88226F231E77F90040948A /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882269231E77F90040948A /* ExCardRes.bundle */; };
+		0F882275231E781A0040948A /* KKBankCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882272231E781A0040948A /* KKBankCardOCRViewController.m */; };
+		0F882276231E781A0040948A /* KKIDCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882273231E781A0040948A /* KKIDCardOCRViewController.m */; };
+		0F882279231E79C70040948A /* BankCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F882278231E79C70040948A /* BankCardImg1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F882246231E77DB0040948A /* OCRApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F882249231E77DB0040948A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F88224A231E77DB0040948A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F88224C231E77DB0040948A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F88224D231E77DB0040948A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F882250231E77DB0040948A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F882252231E77DC0040948A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F882255231E77DC0040948A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F882257231E77DC0040948A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F882258231E77DC0040948A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F882260231E77F90040948A /* IdCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg1.png; sourceTree = "<group>"; };
+		0F882261231E77F90040948A /* IdCardImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg2.png; sourceTree = "<group>"; };
+		0F882265231E77F90040948A /* ExBankCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExBankCardSDK.framework; sourceTree = "<group>"; };
+		0F882266231E77F90040948A /* ExBankCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExBankCardRes.bundle; sourceTree = "<group>"; };
+		0F882268231E77F90040948A /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
+		0F882269231E77F90040948A /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
+		0F882271231E781A0040948A /* KKBankCardOCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBankCardOCRViewController.h; sourceTree = "<group>"; };
+		0F882272231E781A0040948A /* KKBankCardOCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBankCardOCRViewController.m; sourceTree = "<group>"; };
+		0F882273231E781A0040948A /* KKIDCardOCRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKIDCardOCRViewController.m; sourceTree = "<group>"; };
+		0F882274231E781A0040948A /* KKIDCardOCRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKIDCardOCRViewController.h; sourceTree = "<group>"; };
+		0F882277231E78690040948A /* OCRApplication.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRApplication.pch; sourceTree = "<group>"; };
+		0F882278231E79C70040948A /* BankCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankCardImg1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F882243231E77DB0040948A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88226E231E77F90040948A /* ExCardSDK.framework in Frameworks */,
+				0F88226C231E77F90040948A /* ExBankCardSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F88223D231E77DB0040948A = {
+			isa = PBXGroup;
+			children = (
+				0F88225F231E77F90040948A /* Images */,
+				0F882262231E77F90040948A /* Frameworks */,
+				0F882248231E77DB0040948A /* OCRApplication */,
+				0F882247231E77DB0040948A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F882247231E77DB0040948A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F882246231E77DB0040948A /* OCRApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F882248231E77DB0040948A /* OCRApplication */ = {
+			isa = PBXGroup;
+			children = (
+				0F882249231E77DB0040948A /* AppDelegate.h */,
+				0F88224A231E77DB0040948A /* AppDelegate.m */,
+				0F88224C231E77DB0040948A /* ViewController.h */,
+				0F88224D231E77DB0040948A /* ViewController.m */,
+				0F882277231E78690040948A /* OCRApplication.pch */,
+				0F882274231E781A0040948A /* KKIDCardOCRViewController.h */,
+				0F882273231E781A0040948A /* KKIDCardOCRViewController.m */,
+				0F882271231E781A0040948A /* KKBankCardOCRViewController.h */,
+				0F882272231E781A0040948A /* KKBankCardOCRViewController.m */,
+				0F88224F231E77DB0040948A /* Main.storyboard */,
+				0F882252231E77DC0040948A /* Assets.xcassets */,
+				0F882254231E77DC0040948A /* LaunchScreen.storyboard */,
+				0F882257231E77DC0040948A /* Info.plist */,
+				0F882258231E77DC0040948A /* main.m */,
+			);
+			path = OCRApplication;
+			sourceTree = "<group>";
+		};
+		0F88225F231E77F90040948A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0F882260231E77F90040948A /* IdCardImg1.png */,
+				0F882261231E77F90040948A /* IdCardImg2.png */,
+				0F882278231E79C70040948A /* BankCardImg1.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0F882262231E77F90040948A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F882263231E77F90040948A /* OCRLibrary */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F882263231E77F90040948A /* OCRLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0F882264231E77F90040948A /* BankCard */,
+				0F882267231E77F90040948A /* IDCard */,
+			);
+			path = OCRLibrary;
+			sourceTree = "<group>";
+		};
+		0F882264231E77F90040948A /* BankCard */ = {
+			isa = PBXGroup;
+			children = (
+				0F882265231E77F90040948A /* ExBankCardSDK.framework */,
+				0F882266231E77F90040948A /* ExBankCardRes.bundle */,
+			);
+			path = BankCard;
+			sourceTree = "<group>";
+		};
+		0F882267231E77F90040948A /* IDCard */ = {
+			isa = PBXGroup;
+			children = (
+				0F882268231E77F90040948A /* ExCardSDK.framework */,
+				0F882269231E77F90040948A /* ExCardRes.bundle */,
+			);
+			path = IDCard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F882245231E77DB0040948A /* OCRApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88225C231E77DC0040948A /* Build configuration list for PBXNativeTarget "OCRApplication" */;
+			buildPhases = (
+				0F882242231E77DB0040948A /* Sources */,
+				0F882243231E77DB0040948A /* Frameworks */,
+				0F882244231E77DB0040948A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRApplication;
+			productName = OCRApplication;
+			productReference = 0F882246231E77DB0040948A /* OCRApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F88223E231E77DB0040948A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "李志刚";
+				TargetAttributes = {
+					0F882245231E77DB0040948A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0F882241231E77DB0040948A /* Build configuration list for PBXProject "OCRApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F88223D231E77DB0040948A;
+			productRefGroup = 0F882247231E77DB0040948A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F882245231E77DB0040948A /* OCRApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F882244231E77DB0040948A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F882256231E77DC0040948A /* LaunchScreen.storyboard in Resources */,
+				0F88226B231E77F90040948A /* IdCardImg2.png in Resources */,
+				0F882253231E77DC0040948A /* Assets.xcassets in Resources */,
+				0F88226A231E77F90040948A /* IdCardImg1.png in Resources */,
+				0F882251231E77DB0040948A /* Main.storyboard in Resources */,
+				0F88226D231E77F90040948A /* ExBankCardRes.bundle in Resources */,
+				0F88226F231E77F90040948A /* ExCardRes.bundle in Resources */,
+				0F882279231E79C70040948A /* BankCardImg1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F882242231E77DB0040948A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F882276231E781A0040948A /* KKIDCardOCRViewController.m in Sources */,
+				0F88224E231E77DB0040948A /* ViewController.m in Sources */,
+				0F882259231E77DC0040948A /* main.m in Sources */,
+				0F88224B231E77DB0040948A /* AppDelegate.m in Sources */,
+				0F882275231E781A0040948A /* KKBankCardOCRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F88224F231E77DB0040948A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F882250231E77DB0040948A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F882254231E77DC0040948A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F882255231E77DC0040948A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F88225A231E77DC0040948A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F88225B231E77DC0040948A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F88225D231E77DC0040948A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/OCRLibrary/BankCard",
+					"$(PROJECT_DIR)/Frameworks/OCRLibrary/IDCard",
+				);
+				INFOPLIST_FILE = OCRApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KingKong.OCRApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F88225E231E77DC0040948A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/OCRLibrary/BankCard",
+					"$(PROJECT_DIR)/Frameworks/OCRLibrary/IDCard",
+				);
+				INFOPLIST_FILE = OCRApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KingKong.OCRApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F882241231E77DB0040948A /* Build configuration list for PBXProject "OCRApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88225A231E77DC0040948A /* Debug */,
+				0F88225B231E77DC0040948A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F88225C231E77DC0040948A /* Build configuration list for PBXNativeTarget "OCRApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88225D231E77DC0040948A /* Debug */,
+				0F88225E231E77DC0040948A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F88223E231E77DB0040948A /* Project object */;
+}
