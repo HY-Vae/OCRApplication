@@ -17,12 +17,12 @@
 		0F882276231E781A0040948A /* KKIDCardOCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F882273231E781A0040948A /* KKIDCardOCRViewController.m */; };
 		0F882286231E7B300040948A /* IdCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227B231E7B2F0040948A /* IdCardImg1.png */; };
 		0F882287231E7B300040948A /* IdCardImg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227C231E7B2F0040948A /* IdCardImg2.png */; };
-		0F882288231E7B300040948A /* BankCardImg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F88227D231E7B2F0040948A /* BankCardImg1.png */; };
 		0F882289231E7B300040948A /* ExBankCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882281231E7B300040948A /* ExBankCardSDK.framework */; };
 		0F88228A231E7B300040948A /* ExBankCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882282231E7B300040948A /* ExBankCardRes.bundle */; };
 		0F88228B231E7B300040948A /* ExCardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F882284231E7B300040948A /* ExCardSDK.framework */; };
 		0F88228C231E7B300040948A /* ExCardRes.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F882285231E7B300040948A /* ExCardRes.bundle */; };
 		0FB160A2231FBAD900199485 /* btn_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB160A1231FBAD900199485 /* btn_arrow.png */; };
+		0FB160A6231FC88200199485 /* BankCardImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FB160A5231FC88200199485 /* BankCardImg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,12 +43,12 @@
 		0F882277231E78690040948A /* OCRApplication.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCRApplication.pch; sourceTree = "<group>"; };
 		0F88227B231E7B2F0040948A /* IdCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg1.png; sourceTree = "<group>"; };
 		0F88227C231E7B2F0040948A /* IdCardImg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdCardImg2.png; sourceTree = "<group>"; };
-		0F88227D231E7B2F0040948A /* BankCardImg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankCardImg1.png; sourceTree = "<group>"; };
 		0F882281231E7B300040948A /* ExBankCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExBankCardSDK.framework; sourceTree = "<group>"; };
 		0F882282231E7B300040948A /* ExBankCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExBankCardRes.bundle; sourceTree = "<group>"; };
 		0F882284231E7B300040948A /* ExCardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExCardSDK.framework; sourceTree = "<group>"; };
 		0F882285231E7B300040948A /* ExCardRes.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ExCardRes.bundle; sourceTree = "<group>"; };
 		0FB160A1231FBAD900199485 /* btn_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_arrow.png; sourceTree = "<group>"; };
+		0FB160A5231FC88200199485 /* BankCardImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BankCardImg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 			children = (
 				0FB160A1231FBAD900199485 /* btn_arrow.png */,
 				0F88227B231E7B2F0040948A /* IdCardImg1.png */,
+				0FB160A5231FC88200199485 /* BankCardImg.png */,
 				0F88227C231E7B2F0040948A /* IdCardImg2.png */,
-				0F88227D231E7B2F0040948A /* BankCardImg1.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -214,7 +214,7 @@
 				0F88228A231E7B300040948A /* ExBankCardRes.bundle in Resources */,
 				0F882286231E7B300040948A /* IdCardImg1.png in Resources */,
 				0F882251231E77DB0040948A /* Main.storyboard in Resources */,
-				0F882288231E7B300040948A /* BankCardImg1.png in Resources */,
+				0FB160A6231FC88200199485 /* BankCardImg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

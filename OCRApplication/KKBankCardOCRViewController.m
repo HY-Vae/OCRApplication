@@ -118,8 +118,8 @@
     btnBackground.backgroundColor = [UIColor clearColor];
     [infoBackground addSubview:btnBackground];
     //按钮
-    recoBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, PHOTO_BUTTON_MARGIN_VER, PHOTO_BUTTON_WIDTH + 50, PHOTO_BUTTON_HEIGHT - 10)];
-    [recoBtn setBackgroundImage:[UIImage imageNamed:@"BankCardImg1"] forState:UIControlStateNormal];
+    recoBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, PHOTO_BUTTON_MARGIN_VER, PHOTO_BUTTON_WIDTH + 50, PHOTO_BUTTON_HEIGHT)];
+    [recoBtn setBackgroundImage:[UIImage imageNamed:@"BankCardImg"] forState:UIControlStateNormal];
     [recoBtn addTarget:self action:@selector(launchCameraView:) forControlEvents:UIControlEventTouchUpInside];
     recoBtn.center = CGPointMake(btnBackground.frame.size.width/2, recoBtn.center.y);
     [btnBackground addSubview:recoBtn];
