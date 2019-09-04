@@ -66,6 +66,9 @@
     [super viewWillAppear:animated];
     
     [self configNavigationBarStyle];
+    
+    //启动证件扫描引擎
+    [EXOCRCardEngineManager initEngine];
 }
 
 ///配置导航栏样式
@@ -86,8 +89,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"身份证识别";
-    //启动证件扫描引擎
-    [EXOCRCardEngineManager initEngine];
     
     [self configUI];
 }
