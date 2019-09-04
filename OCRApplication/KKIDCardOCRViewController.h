@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <ExCardSDK/ExCardSDK.h>
 
 @interface KKIDCardOCRViewController : UIViewController
 
+@property (nonatomic, strong) EXOCRIDCardInfo * IDInfo;
+
 @end
 
-NS_ASSUME_NONNULL_END

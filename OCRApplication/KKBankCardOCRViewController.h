@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <ExBankCardSDK/ExBankCardSDK.h>
 
 @interface KKBankCardOCRViewController : UIViewController
 
+@property (nonatomic, strong) EXOCRBankCardInfo *BANKInfo;
+
 @end
 
-NS_ASSUME_NONNULL_END
+ 

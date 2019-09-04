@@ -9,8 +9,42 @@
 #ifndef OCRApplication_pch
 #define OCRApplication_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
+
+#define IS_IPHONE       ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define SMALL_SCREEN    (abs((int)[UIScreen mainScreen].bounds.size.width - 320) < 1)
+#define LARGE_SCREEN    (abs((int)[UIScreen mainScreen].bounds.size.width - 414) < 1)
+
+#define UIColorFromRGBA(rgbValue,al) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:al]
+
+#define FRONT_TAG   0x1033
+#define BACK_TAG    0x1034
+
+#define STATUS_BAR_HEIGHT 20
+#define NAV_BAR_HIGHT  44
+
+#define LEFT_MARGIN     (SMALL_SCREEN ? 20 : 40)
+#define RIGHT_MARGIN    (SMALL_SCREEN ? 20 : 40)
+
+#define PHOTO_BUTTON_WIDTH              (SCREEN_WIDTH/5)
+#define PHOTO_BUTTON_HEIGHT             (PHOTO_BUTTON_WIDTH)
+#define PHOTO_BUTTON_LABEL_HEIGHT       (30)
+#define PHOTO_BUTTON_MARGIN_TOP         (20)
+#define PHOTO_BUTTON_MARGIN_VER         (10)
+
+#define FACEIMG_TEXT_MARGIN             (RIGHT_MARGIN/2)
+
+#define LEFTVIEW_WIDTH_FRONT                  (LARGE_SCREEN ? 65 : 60)
+#define LEFTVIEW_WIDTH_BACK                   (LARGE_SCREEN ? 100 : 90) 
+ 
+#define CURRENT_SYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define iOS7Later (CURRENT_SYSTEM_VERSION >= 7.0f)
+#define iOS8Later (CURRENT_SYSTEM_VERSION >= 8.0f)
+#define iOS9Later (CURRENT_SYSTEM_VERSION >= 9.0f)
+#define iOS9_1Later (CURRENT_SYSTEM_VERSION >= 9.1f)
+#define iOS10Later (CURRENT_SYSTEM_VERSION >= 10.0f)
+#define iOS11Later (CURRENT_SYSTEM_VERSION >= 11.0)
 
 
 #endif /* OCRApplication_pch */
